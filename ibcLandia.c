@@ -1221,9 +1221,9 @@ void menu_visitantes() {
    ───────────────────────────────────────────── */
 
 int main() {
-    cargar_zonas("C:\\Users\\seban\\OneDrive\\Desktop\\IBCLandia\\zonas.csv");
-    cargar_atracciones("C:\\Users\\seban\\OneDrive\\Desktop\\IBCLandia\\atracciones.csv");
-    cargar_visitantes("C:\\Users\\seban\\OneDrive\\Desktop\\IBCLandia\\persona.csv");
+    cargar_zonas("zonas.csv");
+    cargar_atracciones("atracciones.csv");
+    cargar_visitantes("persona.csv");
 
     poblar_personas_y_entradas();
     poblar_filas();
